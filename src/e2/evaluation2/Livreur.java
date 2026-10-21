@@ -10,15 +10,12 @@ public abstract class Livreur {
 	public Livreur getResponsable() {
 		return responsable;
 	}
-	public void setResponsable(Livreur responsable) {
-		if(this.responsable==responsable) {
-			System.out.println("set null");
-		}
-			
-			this.responsable = responsable;
 
-		
-			}
+	  public void setResponsable(Livreur responsable) {
+        if (responsable == this) {
+            System.out.println("Erreur : un livreur ne peut pas être son propre responsable.");
+            return;
+        }
 	public Livreur(String identifiant, String nom, double tarifKm) {
 		super();
 		this.identifiant = identifiant;
