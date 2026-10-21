@@ -16,6 +16,8 @@ public abstract class Livreur {
             System.out.println("Erreur : un livreur ne peut pas être son propre responsable.");
             return;
         }
+		         this.responsable = responsable;
+    }
 	public Livreur(String identifiant, String nom, double tarifKm) {
 		super();
 		this.identifiant = identifiant;
