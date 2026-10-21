@@ -1,4 +1,6 @@
 Description brève
+
+
 Une entreprise de logistique souhaite développer une application Java permettant de gérer ses livreurs, ses commandes et les livraisons effectuées. L'application doit permettre de manipuler plusieurs types de livreurs, de calculer le coût des livraisons selon le type de livreur, d'affecter les livraisons à des commandes et de gérer une relation hiérarchique entre les livreurs. L'étude repose sur les notions suivantes :
 Héritage et classe abstraite.
 Polymorphisme et redéfinition des méthodes.
